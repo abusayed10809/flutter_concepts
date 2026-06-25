@@ -193,3 +193,28 @@ Quick Comparison
 | **State**           | Allows an object to alter its behavior when its internal state changes.                                                          | Managing UI states (Loading, Success, Error, Empty).                                       |
 | **Command**         | Turns a request or action into a stand-alone object containing all information about the request.                                | Implementing "Undo/Redo" functionality or mapping button clicks to specific actions.       |
 | **Template Method** | Defines the skeleton of an algorithm in a superclass but lets subclasses override specific steps without changing its structure. | Creating a base class for data parsers (JSON, CSV, XML) that all follow the same sequence. |
+
+# Difference between factory and abstract
+
+- The main difference is that Factory Method is a single method to create a single product, whereas
+  Abstract Factory is an object containing multiple factory methods to create a whole family of
+  related products.
+
+1. Factory Method (The Single Product approach)
+
+- The Factory Method pattern uses inheritance. A base class defines a method for creating an object,
+  but lets subclasses override that method to change the type of object that will be created.
+- Analogy: A standard bakery. The bakery has a generic bake() method. A CroissantBakery overrides it
+  to return a Croissant, while a CakeBakery overrides it to return a Cake.
+- Key Characteristic: It creates one product at a time.
+
+2. Abstract Factory (The Product Family approach)
+
+- The Abstract Factory pattern uses object composition. It provides an interface for creating
+  families of related or dependent objects without specifying their concrete classes. It is
+  essentially an object that contains multiple Factory Methods.
+- Analogy: An industrial furniture factory. Instead of just making a chair, it makes a matching set
+  of furniture. A VictorianFurnitureFactory creates a Victorian Chair, a Victorian Sofa, and a
+  Victorian Coffee Table. A ModernFurnitureFactory creates a Modern Chair, a Modern Sofa, and a
+  Modern Coffee Table. You would never mix a Victorian chair with a Modern sofa.
+- Key Characteristic: It creates a suite of coordinating products.

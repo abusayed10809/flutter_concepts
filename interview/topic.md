@@ -11,7 +11,7 @@ categorized from core basics to advanced architectural concepts.
   and Object.
 - Object-Oriented Programming (OOP): Mixins (with), Extensions (adding methods to existing
   classes), Interfaces vs.
-  Abstract classes (implements vs. extends), and Factory constructors.
+  Abstract classes (implements vs. extends), and Factory constructors. Dependency Injection
 - Asynchronous Programming: Future, async/await, Stream (Single-subscription vs. Broadcast), and
   handling async
   errors.
@@ -69,7 +69,7 @@ categorized from core basics to advanced architectural concepts.
 
 - API Integration: Making HTTP requests (dio vs http package), parsing JSON data into Type-Safe
   Dart objects, and
-  interceptors.
+  interceptors. API Security, API Data Leakage Prevention
 - Local Databases: Hive or Isar (NoSQL) vs. sqflite (SQL), and Shared Preferences for simple
   key-value pairs.
 - App Architecture: Structuring scalable codebases (e.g., Clean Architecture, Feature-First vs.

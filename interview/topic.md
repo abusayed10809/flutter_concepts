@@ -5,8 +5,7 @@ categorized from core basics to advanced architectural concepts.
 1. Dart Programming Basics & OOPs
 
 - Data Types & Sound Null Safety: Null-aware operators (??, ?., !), late initialization, and
-  compile-time (const) vs.
-  runtime (final) constants.
+  compile-time (const) vs. runtime (final) constants. Function pass by reference pass by value
 - Functions & Keywords: Named vs. positional parameters, arrow syntax (=>), and the difference
   between var, dynamic,
   and Object.

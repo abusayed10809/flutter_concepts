@@ -23,6 +23,7 @@ class HeavyVideoPlayer implements VideoPlayer {
   void _initializeHeavyHardware() {
     print(
       "⚠️ Allocating 100MB RAM, initializing hardware decoders for $videoUrl...",
+
     );
   }
 

@@ -41,9 +41,7 @@
   being used by real users. i also like how quickly the mobile ecosystem evolves. which continuously gives
   me opportunity to learn and improve as an engineer.
 
-# You mentioned working with Flutter for a few years now. Can you walk me through how Flutter's rendering pipeline
-
-# works, from when a widget rebuilds to when pixels appear on the screen?
+# You mentioned working with Flutter for a few years now. Can you walk me through how Flutter's rendering pipeline, giw it works, from when a widget rebuilds to when pixels appear on the screen?
 
 - flutter's rendering pipeline starts when a widget needs to rebuild due to state changes. when this happens, flutter
   marks the corresponding element as dirty, and schedules a new frame. during the build phase, flutter traverses the
@@ -105,11 +103,3 @@ Pixels on Screen
 # Now, thinking about API integration, can you walk me through how you handle token refresh logic when an API returns a 401 error mid-session, especially when multiple requests fail simultaneously?
 
 # In a scenario where five API calls fail with 401 simultaneously, how do you ensure the refresh token is called only once and all pending requests are queued and retried with the new token?
-
-# 
-
-### things to look into
-
-1. what are the different architectural patterns
-2. how to improve app performance
-2. app profiling

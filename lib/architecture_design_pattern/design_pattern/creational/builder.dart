@@ -2,6 +2,11 @@
 // Separates the construction of a complex object from its representation, allowing step-by-step creation.
 // In Flutter/Dart, this pattern is frequently used to construct complex network requests, custom HTTP clients, or deeply configured domain objects without polluting the constructor with dozens of optional arguments.
 
+// Why this is a lifesaver in Software Development
+// •	No Confusion: You only call the methods for the ingredients you actually want. If you don't want mushrooms, you simply don't call .addMushrooms(). You don't have to pass false or null.
+// •	Immutability: The final Pizza object can have final fields (immutable), meaning once it is built, no one can mess with your order or change the toppings out from under you.
+// •	Readability: The code perfectly documents itself. Anyone looking at the code can immediately read exactly what kind of object is being constructed.
+
 // The Complex Object
 class HttpRequest {
   final String url;

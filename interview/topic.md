@@ -2,6 +2,8 @@ To help you prepare effectively, here is a comprehensive, structured list of Flu
 interview topics,
 categorized from core basics to advanced architectural concepts.
 
+0. Software engineering principles
+
 1. Dart Programming Basics & OOPs
 
 - Data Types & Sound Null Safety: Null-aware operators (??, ?., !), late initialization, and
@@ -52,6 +54,7 @@ categorized from core basics to advanced architectural concepts.
   between Expanded vs.
   Flexible, and SizedBox vs. Container.
 - Advanced UI: Slivers (for custom scroll effects) and the LayoutBuilder widget.
+- Context and InheritedWidget
 
 4. State Management
    This is almost always a deep-dive topic in interviews. You should know at least one or two

@@ -2,12 +2,17 @@ To help you prepare effectively, here is a comprehensive, structured list of Flu
 interview topics,
 categorized from core basics to advanced architectural concepts.
 
-0. Software engineering principles
+0. Software engineering principles,
+
+- design patterns
+- algo ds
+- core computer science, process, threading, concurrency, etc. network layer
 
 1. Dart Programming Basics & OOPs
 
 - Data Types & Sound Null Safety: Null-aware operators (??, ?., !), late initialization, and
   compile-time (const) vs. runtime (final) constants. Function pass by reference pass by value
+
 - Functions & Keywords: Named vs. positional parameters, arrow syntax (=>), and the difference
   between var, dynamic,
   and Object.

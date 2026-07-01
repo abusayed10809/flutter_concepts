@@ -41,7 +41,7 @@
   being used by real users. i also like how quickly the mobile ecosystem evolves. which continuously gives
   me opportunity to learn and improve as an engineer.
 
-# You mentioned working with Flutter for a few years now. Can you walk me through how Flutter's rendering pipeline, giw it works, from when a widget rebuilds to when pixels appear on the screen?
+# You mentioned working with Flutter for a few years now. Can you walk me through how Flutter's rendering pipeline, how it works, from when a widget rebuilds to when pixels appear on the screen?
 
 - flutter's rendering pipeline starts when a widget needs to rebuild due to state changes. when this happens, flutter
   marks the corresponding element as dirty, and schedules a new frame. during the build phase, flutter traverses the

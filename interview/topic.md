@@ -25,6 +25,7 @@ categorized from core basics to advanced architectural concepts.
 
 2. Flutter Architecture & Internals
 
+- Dart Virtual Machine (VM) Heap Memory
 - The Three Trees: How the Widget Tree, Element Tree, and RenderObject Tree work together.
 - Rendering Pipeline: The Build, Layout, and Paint phases.
 - Platform Integration: How MethodChannels, EventChannels, and Pigeon handle communication

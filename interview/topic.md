@@ -25,9 +25,12 @@ categorized from core basics to advanced architectural concepts.
 
 2. Flutter Architecture & Internals
 
+- what is Flutter Engine. how does it have both dart and cpp support?
+- how Flutter manages its four core threads (UI, Raster, Platform, IO) across these layers during a
+  single render frame?
 - Dart Virtual Machine (VM) Heap Memory
 - The Three Trees: How the Widget Tree, Element Tree, and RenderObject Tree work together.
-- Rendering Pipeline: The Build, Layout, and Paint phases.
+- Rendering Pipeline: Animate, The Build, Layout, and Paint phases.
 - Platform Integration: How MethodChannels, EventChannels, and Pigeon handle communication
   between Dart and native
   code (Java/Kotlin/Swift/Obj-C).

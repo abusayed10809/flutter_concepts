@@ -52,6 +52,8 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 - Build Modes: Debug (JIT compilation, hot reload), Profile (performance tracing), and Release (
   AOT compilation, optimization).
 
+- Flutter app lifecycle (resumed, inactive, hidden, paused, detached)
+
 - Engine Architecture (How Flutter is Built) Flutter operates on a three-tier, layered architecture.
   Each layer depends only on the layer below it.
 
